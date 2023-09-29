@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navigationScreen {
+  width: calc(100vw - 40px);
+}
+
+.heroHeight {
+  height: calc(100vh - 64px);
+}
+
+.NavHover {
+  @apply transition  text-mainColor/80 duration-200 hover:text-mainColor text-[15px];
+}
+
+.NavHoverSm {
+  @apply transition  text-mainColor/80 duration-200 hover:text-mainColor text-[17px];
+}
+
+.blackBtn {
+  @apply bg-mainColor text-center transition hover:bg-mainColor/95 duration-200 px-5 py-2.5 text-sm font-medium text-white rounded-md;
+}
+
+.blackBtn2 {
+  @apply bg-mainColor text-center transition hover:bg-mainColor/95 duration-200 px-5 py-2.5 text-sm font-medium text-white;
+}
+
+.grayBtn {
+  @apply bg-gray-100 text-center transition hover:bg-[#e7e8ebb3] duration-200 px-5 py-2.5 text-sm font-medium text-mainColor rounded-md;
+}
+
+.layoutStyle {
+  @apply container mx-auto max-w-7xl px-5 sm:px-6 lg:px-8;
+}
+
+.section {
+  @apply py-10;
+}
+
+.sectionTitle {
+  @apply text-center text-[30px] sm:text-[40px] md:text-[45px] lg:text-[48px] mb-6 capitalize;
+}
+
+.productGuideTitle {
+  @apply text-center capitalize mt-3 mb-2 text-[17px] sm:text-[20px] transition duration-200;
+}
+
+.productGuideDesc {
+  @apply text-center text-[14px] sm:text-[16px] text-mainColor font-light;
+}
+
+.productguideImg {
+  @apply cursor-pointer h-[300px] object-cover rounded-md;
+}
+
+.productguideImg:hover ~ .productGuideTitle {
+  @apply underline;
+}
+
+.textShadow {
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+.filterBtn {
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  color: #2d2d2d;
+}
+
+.filterBtn.active {
+  color: #850101;
+}
+
+.filterBtn.active:before {
+  background-color: #850101;
+  margin-right: 5px;
+  width: 20px;
+}
+
+.filterBtn:before {
+  background-color: #2d2d2d;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 0;
+}
+
+.filterBtn:hover:before {
+  margin-right: 5px;
+  width: 20px;
+}
+
+.authFormStyle {
+  @apply bg-white p-[20px] rounded-md shadow-md mmd:shadow-none;
+}
+
+.labelStyle {
+  @apply mb-[5px] block text-mainColor cursor-pointer;
+}
+
+.inputStyle {
+  @apply px-[10px] py-[7px] border border-mainColor/70 block mb-2 text-[15px] font-light w-full rounded-sm text-mainColor placeholder:text-gray-500
+  focus:outline-none placeholder:text-[13px] placeholder:capitalize;
+}
+
+.swiper-pagination-bullet {
+  @apply shadow-xl shadow-black border border-white !w-[10px] !h-[10px];
+}
+
+.swiper-pagination-bullet-active {
+  @apply !bg-white;
+}
+
+[data-sonner-toast][data-styled="true"] {
+  @apply !text-mainColor;
+}
+
+body.__className_aac0dd.min-h-screen.text-\[\#2D2D2D\].overflow-x-hidden.scrollbar-thin.scrollbar-thumb-gray-300.hover\:scrollbar-thumb-\[\#B4B4B4\] {
+  @apply !pointer-events-auto;
+}
+
+[data-sonner-toast][data-styled="true"] [data-description] {
+  @apply !text-[12px] !mt-1;
+}
+
+.glassEffect {
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
+}
