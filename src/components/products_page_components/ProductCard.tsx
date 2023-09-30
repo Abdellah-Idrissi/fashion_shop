@@ -14,7 +14,7 @@ export default function ProductCard({ product, segment }: productCardType) {
           <Image
             src={images[0]}
             alt="front product pic"
-            sizes={`(min-width: 808px) 30vw, 60vw`}
+            sizes="(min-width: 1340px) 227px, (min-width: 1040px) calc(21.43vw - 56px), (min-width: 780px) calc(33.33vw - 113px), (min-width: 640px) calc(50vw - 34px), calc(100vw - 40px)"
             fill
             priority
             className="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
@@ -23,7 +23,7 @@ export default function ProductCard({ product, segment }: productCardType) {
           <Image
             src={images[1]}
             fill
-            sizes={`(min-width: 808px) 30vw, 60vw`}
+            sizes="(min-width: 1340px) 227px, (min-width: 1040px) calc(21.43vw - 56px), (min-width: 780px) calc(33.33vw - 113px), (min-width: 640px) calc(50vw - 34px), calc(100vw - 40px)"
             priority
             alt="back product pic"
             className="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"

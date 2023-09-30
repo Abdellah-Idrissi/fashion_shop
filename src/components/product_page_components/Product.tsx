@@ -22,7 +22,7 @@ export default function Product({product , segment , children }:propsType) {
 
 
   return (
-    <div className="mt-[65px]">
+    <div className="mt-[65px] mb-[40px]">
       
       <div className="flex flex-col sm:flex-row gap-y-[20px] gap-x-[30px]  justify-center">
 
