@@ -8,7 +8,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen  py-[64px]">
       <Header font={prata.className}/>
       {children}
       <Footer font={prata.className} />

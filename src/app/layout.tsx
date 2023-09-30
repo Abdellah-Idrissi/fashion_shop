@@ -43,7 +43,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
       <ClerkProvider>
-        <body  className={`${futurA.className} min-h-screen py-[64px] text-[#2D2D2D] overflow-x-hidden scrollbar-thin scrollbar-thumb-gray-300 hover:scrollbar-thumb-[#B4B4B4]`}  >
+        <body  className={`${futurA.className} min-h-screen text-[#2D2D2D] overflow-x-hidden scrollbar-thin scrollbar-thumb-gray-300 hover:scrollbar-thumb-[#B4B4B4]`}  >
 
             <RtkProvider>
 
