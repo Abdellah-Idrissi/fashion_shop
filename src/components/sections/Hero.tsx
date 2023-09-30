@@ -10,11 +10,13 @@ export default function Hero() {
       <Image
         src={star}
         alt="star"
+        priority
         className=" w-[80px] md:w-[100px] absolute bottom-0 "
       />
       <Image
         src={star}
         alt="star"
+        priority
         className=" w-[80px] md:w-[100px] absolute bottom-0 right-0 "
       />
     </div>

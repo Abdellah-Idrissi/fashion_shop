@@ -22,7 +22,7 @@ export default function ProductImages({ images }: { images: string[] }) {
         <Image
           src={images[0]}
           fill
-          sizes="50vw"
+          sizes="30vw"
           alt="first pic"
           priority
           className="object-cover"
@@ -33,7 +33,7 @@ export default function ProductImages({ images }: { images: string[] }) {
         <Image
           src={images[1]}
           fill
-          sizes="50vw"
+          sizes="30vw"
           alt="second pic"
           priority
           className="object-cover"
