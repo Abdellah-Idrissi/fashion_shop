@@ -14,7 +14,7 @@ export default function ProductCard({ product, segment }: productCardType) {
           <Image
             src={images[0]}
             alt="front product pic"
-            sizes={`50vw`}
+            sizes={`30vw`}
             fill
             priority
             className="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
@@ -23,7 +23,7 @@ export default function ProductCard({ product, segment }: productCardType) {
           <Image
             src={images[1]}
             fill
-            sizes={`50vw`}
+            sizes={`30vw`}
             priority
             alt="back product pic"
             className="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"

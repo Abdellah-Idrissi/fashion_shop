@@ -26,7 +26,7 @@ export default async function MenProductPage({ params: { id } }: propsType) {
   }
 
   return (
-    <div className="layoutStyle mb-[70px] sm:mb-[100px]">
+    <div className="layoutStyle flex-1">
       <Product product={product} segment="men">
         <Title title={product.title} />
       </Product>
