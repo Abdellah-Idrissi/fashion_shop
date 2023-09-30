@@ -22,7 +22,7 @@ export default function ProductImages({ images }: { images: string[] }) {
         <Image
           src={images[0]}
           fill
-          sizes="(min-width: 1360px) 365px, (min-width: 780px) calc(25.89vw + 18px), (min-width: 700px) calc(78.33vw - 220px), (min-width: 660px) 298px, (min-width: 440px) calc(100vw - 60px), (min-width: 380px) calc(150vw - 250px), (min-width: 340px) calc(200vw - 400px), calc(-215vw + 968px)"
+          sizes="(min-width: 808px) 30vw, 50vw"
           alt="first pic"
           priority
           className="object-cover"
@@ -33,7 +33,7 @@ export default function ProductImages({ images }: { images: string[] }) {
         <Image
           src={images[1]}
           fill
-          sizes="(min-width: 1360px) 365px, (min-width: 780px) calc(25.89vw + 18px), (min-width: 700px) calc(78.33vw - 220px), (min-width: 660px) 298px, (min-width: 440px) calc(100vw - 60px), (min-width: 380px) calc(150vw - 250px), (min-width: 340px) calc(200vw - 400px), calc(-215vw + 968px)"
+          sizes="(min-width: 808px) 30vw, 50vw"
           alt="second pic"
           priority
           className="object-cover"
