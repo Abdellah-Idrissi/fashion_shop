@@ -40,7 +40,7 @@ export default function ProductsNavigation() {
                     <Image
                         src={firstFront}
                         alt="front"
-                        sizes={`50vw`}
+                        sizes={`30vw`}
                         fill
                         priority
                         placeholder="blur"
@@ -50,7 +50,7 @@ export default function ProductsNavigation() {
                       <Image
                         src={firstBack}
                         fill
-                        sizes={`50vw`}
+                        sizes={`30vw`}
                         alt="back"
                         priority
                         placeholder="blur"
@@ -67,7 +67,7 @@ export default function ProductsNavigation() {
                     <Image
                         src={secondFront}
                         alt="front"
-                        sizes={`50vw`}
+                        sizes={`30vw`}
                         fill
                         priority
                         placeholder="blur"
@@ -77,7 +77,7 @@ export default function ProductsNavigation() {
                       <Image
                         src={secondBack}
                         fill
-                        sizes={`50vw`}
+                        sizes={`30vw`}
                         alt="back"
                         priority
                         placeholder="blur"
@@ -94,7 +94,7 @@ export default function ProductsNavigation() {
                       <Image
                           src={thirdFront}
                           alt="front"
-                          sizes={`50vw`}
+                          sizes={`30vw`}
                           fill
                           priority
                           placeholder="blur"
@@ -104,7 +104,7 @@ export default function ProductsNavigation() {
                         <Image
                           src={thirdBack}
                           fill
-                          sizes={`50vw`}
+                          sizes={`30vw`}
                           alt="back"
                           priority
                           placeholder="blur"
