@@ -27,14 +27,14 @@ export default function Checkout() {
 
               {
                 cartArr.length === 0 ? 
-                <div className=" text-center mt-[50px] bg-mainColor text-white p-5 rounded-md w-[420px] mx-auto flex flex-col gap-y-3">
+                <div className=" text-center mt-[50px] bg-mainColor text-white p-5 rounded-md w-full md:w-[420px] mx-auto flex flex-col gap-y-3">
                   <TbShoppingCartX className={'text-[100px] font-light mx-auto'}/>
                   <p className="text-[20px]">Cart is currently empty</p>
                   <p className="font-light text-[15px]">Before procceding to checkout you must add some products in your cart , go ahead and start exploring our products</p>
 
                   <div className="flex gap-3 mt-[20px]">
-                    <Link href={'/men'} className="grayBtn hover:bg-gray-200 flex-1">Continue To Men</Link>
-                    <Link href={'/women'} className="grayBtn hover:bg-gray-200 flex-1">Continue To Women</Link>
+                    <Link href={'/men'} className="grayBtn grid place-items-center hover:bg-gray-200 flex-1">Continue To Men</Link>
+                    <Link href={'/women'} className="grayBtn grid place-items-center hover:bg-gray-200 flex-1">Continue To Women</Link>
                   </div>
                 </div> : 
                 <>
