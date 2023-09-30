@@ -25,9 +25,9 @@ export default function ProductsNavigation() {
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger className="flex items-center cursor-pointer NavHover">
-              <li>
+              <p>
                 Products
-              </li>
+              </p>
           </NavigationMenuTrigger>
 
           <NavigationMenuContent>

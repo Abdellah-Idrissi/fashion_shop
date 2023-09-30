@@ -40,21 +40,17 @@ export default function Header({ font }: { font: string }) {
 
             <div className="hidden md:block">
               <nav aria-label="Global">
-                <ul className="flex items-center gap-6 text-sm">
+                <div className="flex items-center gap-6 text-sm">
                   <ProductsNavigation />
 
-                  <li>
                     <Link className="NavHover" href="/men">
                       Men
                     </Link>
-                  </li>
 
-                  <li>
                     <Link className="NavHover" href="/women">
                       Women
                     </Link>
-                  </li>
-                </ul>
+                </div>
               </nav>
             </div>
 
