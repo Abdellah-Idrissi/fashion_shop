@@ -12,7 +12,7 @@ export default function Products({ products, segment }: productsPageTypes) {
       <div className="flex flex-col gap-[50px] md:flex-row relative">
         <Filters segment={segment} />
 
-        <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
+        <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 ">
           {products.map((product: productType) => (
             <ProductCard key={product.id} product={product} segment={segment} />
           ))}

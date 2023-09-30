@@ -9,7 +9,7 @@ export default function ProductCard({ product, segment }: productCardType) {
 
   return (
     <div className={`group block `}>
-      <div className="relative h-[450px] bg-gray-100 overflow-hidden mb-2">
+      <div className="relative h-[350px] bg-gray-100 overflow-hidden mb-2">
         <Link href={`/${segment}/${id}`} className="relative block h-full">
           <Image
             src={images[0]}
