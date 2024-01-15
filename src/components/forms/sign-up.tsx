@@ -74,7 +74,7 @@ export default function SignUpForm() {
           <input
             id="lastname"
             type="text"
-            placeholder="enter your username"
+            placeholder="enter your last name"
             ref={lastNameRef}
             className="inputStyle"
           />
