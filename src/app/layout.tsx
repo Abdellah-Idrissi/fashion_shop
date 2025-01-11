@@ -34,7 +34,7 @@ export const futurA = localFont({
 // METADATA
 export const metadata: Metadata = {
   title: 'Fashion Shop',
-  description: 'Fashion Shop Created by Abdellah Moumen El Idrissi',
+  description: 'Fashion Shop',
   icons: [{ rel: 'icon', url: favicon.src }],
 }
 
